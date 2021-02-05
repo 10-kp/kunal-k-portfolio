@@ -14,7 +14,7 @@ h1 {
     line-height: 35px;
     text-shadow: 50em;
     display: block;
-    background-color: #fafafa;
+    background-color: #F0F8FF;
     position: fixed;
     top: 5px;
     left: auto;
@@ -30,6 +30,8 @@ h1 {
     list-style-type: none;
     background-color: #DCDCDC;
     width: 100%;
+    background-position: right;
+    position: inherit;
 }
 
 a:hover{
@@ -59,11 +61,13 @@ h2 {
     color: Black;
     list-style: none;
     padding: 20px;
+    background-color: olivedrab;
 }
 /* reduce size,  */
 .float-left{
     width: 200px;
     border-radius: 50%;
+    
 }
 /* Why is the bullet point still there? */
 .work img{
@@ -86,4 +90,9 @@ h2 {
     list-style-type: none;
     background-color: #DCDCDC;
     width: 100%;
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-color: orange;
+    }
 }

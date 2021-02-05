@@ -1,9 +1,11 @@
 # kunal-k-portfolio
 
-Link to the page:
+Link to the page: XXX
+
+Snapshot: XXXX
 
 Installation
-    - Created a new repository in GitHib called Horiseon_site_accessibility
+    - Created a new repository in GitHib called kunal-k-portfolio
     - Copied the SSH Key in "Code"
     - [For MAC] In terminal, go to Desktop (cd Desktop/)
     - Create a clone -> git clone + paste the SSH key
@@ -12,11 +14,17 @@ Installation
     - In terminal -> git add. -> git commit -m "(update with commets)" -> git push
     - Publishing the site online via GitHub -> Settings -> GitHub Pages -> Source -> Main. 
 
-<!-- GIT COMMIT ISSUES See Screenshot -->
     HTML
-    - Segregated header and class
-    - Renamed the <div> with semantics such as header, section, aside.
+    - Created a large font for header
+    - Segregated into 2 headers, nav, 4 sections, 5 headers 2.
+    - Headings - About me, Work -> split into 5 sub-sections namely myFirstRepo, Horiseon, My Bio, Refactoring.
+    - Created a contact me with phone, email, github, LinkedIn and Twitter
+    - Separate Resume under progress.
 
     CSS
-    - Created a text align for center.
-    - Made fewer lines of code in the css by combining all the classes in one row.
+    - Formatted the whole page with boxes, padding and margins.
+    - Formatted <h1>, <h2> with respective individual properties and styles
+    - Links (<href>) have unique properties including Pseudo element :hover.
+    - Paras (<p>) have padding and styles to fit content in page.
+    - Contact me has 5 different links with access to external sites.
+    - Use @ media screen to adjust for different sizes.
