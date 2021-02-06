@@ -2,7 +2,7 @@
 
 Link to the page: https://10-kp.github.io/kunal-k-portfolio/
 
-Snapshot: ![](images/assets/images/screen-shot.png)
+Snapshot: ![](assets/images/screen-shot.png)
 
 Installation
     - Created a new repository in GitHib called kunal-k-portfolio
