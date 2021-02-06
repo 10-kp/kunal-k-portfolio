@@ -1,8 +1,8 @@
 # kunal-k-portfolio
 
-Link to the page: XXX
+Link to the page: https://10-kp.github.io/kunal-k-portfolio/
 
-Snapshot: XXXX
+Snapshot: 
 
 Installation
     - Created a new repository in GitHib called kunal-k-portfolio
@@ -17,9 +17,9 @@ Installation
     HTML
     - Created a large font for header
     - Segregated into 2 headers, nav, 4 sections, 5 headers 2.
-    - Headings - About me, Work -> split into 5 sub-sections namely myFirstRepo, Horiseon, My Bio, Refactoring.
+    - Headings - About me, Work -> split into 5 sub-sections namely myFirstRepo, Horiseon, My Bio.
     - Created a contact me with phone, email, github, LinkedIn and Twitter
-    - Separate Resume under progress.
+    - Separate Resume pdf links.
 
     CSS
     - Formatted the whole page with boxes, padding and margins.
