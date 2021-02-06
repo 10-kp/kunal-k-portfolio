@@ -87,7 +87,7 @@ h2 {
     list-style: none;
 }
 
-.myFirstRepo img {
+.myFirstRepo img, .Horiseon img, .mybio img {
     width: 400px;
     list-style: none;
 }
