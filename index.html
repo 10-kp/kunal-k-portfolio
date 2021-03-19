@@ -2,31 +2,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kunal K</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kunal</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swipebox.css">
+    <link href="//fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Need to put the words to the center -->
-    <header>
-     <h1>Kunal Khetarpal</h1>
-    </header>
+    <!-- WHY DID THIS DISAPPEAR?? -->
+    <div class="logo-w3layouts">
+		<h1><a href="https://10-kp.github.io/kunal-k-portfolio/">Kunal Khetarpal</a></h1>
+	</div>
+
+    <div class="banner-agile">
+		<div class="container">
+			<div class="banner-info-w3l">
+				<h2>Full Stack Web Developer</h2>
+                <h3>Welcome to my webpage</h3>
+                <img src="./assets/images/Kunal-pic.jpg" alt="Image of Kunal">
+			</div>
+	    </div>
+    </div>
+
+    <div class="nav-agile" id="mainnav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
+							<li><a class="scroll2" href="index.html"><span data-hover="Home">Home</span></a></li>
+							<li><a class="scroll" href="#skills"><span data-hover="Skills">Skills</span></a></li>
+							<li><a class="scroll" href="#portfolio"><span data-hover="Projects">Projects</span></a></li>
+							<li><a class="scroll" href="#about"><span data-hover="About">About</span></a></li>
+							<li><a class="scroll" href="#experience"><span data-hover="Experience">Experience</span></a></li>
+							<li><a class="scroll" href="#contact"><span data-hover="Contact">Contact</span></a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div><!-- /.navbar-collapse -->
+					<div class="clearfix"></div>
+			</nav>
+		</div>
+	</div>
+    
 <!-- Open link to new webpage -->
     <header class="links">
             <nav id="menu">
-                <a href="#about-me">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#resume">Resume</a>
-                <a href="#contact-me">Contact Me</a>
+                <p id="about-me"></p><a href="#about-me">About Me</a>
+                <p id="work"></p><a href="#work">Work</a>
+                <p id="resume"></p><a href="#resume">Resume</a>
+                <p id="contact-me"></p><a href="#contact-me">Contact Me</a>
                 
               </ul>      
             </nav> 
-        </header>
-    
-    <header class="content">
+    </header>
         <section id= "about-me" class="about-me">
-            <img src="./assets/images/Kunal-pic.jpg" class="float-left" alt = "Image of Kunal K"/></a>
             <h2>About Me</h2>
             <p>15 years, Corporate Banker, MBA, Reading, Running</p>    
         </section>
@@ -56,12 +99,20 @@
                 <img src="assets/images/resume-pic.jpg" class="float-right" alt = "image of resume"/></a>
         </section>
 
-        <section id = "contact-me" class="contact-me">
             <h2>Contact Me</h2>
             <!-- Make it in line-->
             <p>Phone: +971 50 111 3333</p>
-            <li><a href="mailto: kp.10@me.com">E-mail</a></li>
-            <li><a href="https://github.com/10-kp">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/kunalkhetarpal">LinkedIn</a></li>
-            <li><a href="https://twitter.com/KP_83">Twitter</a></li>
-        </section>
+            <a href="mailto: kp.10@me.com">E-mail</a>
+
+            <a href="https://github.com/10-kp" target="#blank">
+                <span class="banner-link">
+                    <i class="fa fa-github"></i>
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/kunalkhetarpal" target="#blank">
+                <span class="banner-link">
+                    <i class="fa fa-linkedin"></i>
+                </span>
+            </a>
+
+                <a href="https://twitter.com/KP_83">Twitter</a>
