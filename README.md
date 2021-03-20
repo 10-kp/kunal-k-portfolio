@@ -6,7 +6,7 @@ Git Hub Link: https://github.com/10-kp/kunal-k-portfolio
 
 <<<<<<< HEAD
 =======
-Snapshot: ![](assets/images/screen-shot.png)
+Snapshot: ![](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-snapshot.png)
 >>>>>>> 09c84030e9c273851062ea8f6d56b9ff5e92280b
 
 Installation
