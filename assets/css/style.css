@@ -1,70 +1,69 @@
-
 @import 'bulma-social/css/all.min.css';
 
 .button.is-linkedin {
-    background-color: #0a66c2;
-    border-color: transparent;
-    color: #fff;
+  background-color: #0a66c2;
+  border-color: transparent;
+  color: #fff;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
- 
+
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-.button.is-github:focus, .button.is-github.is-focused {
-    border-color: transparent;
-    color: #fff;
-  }
-  
+.button.is-github:focus,
+.button.is-github.is-focused {
+  border-color: transparent;
+  color: #fff;
+}
+
 .button.is-twitter {
-    background-color: #1da1f2;
-    border-color: transparent;
-    color: #fff;
+  background-color: #1da1f2;
+  border-color: transparent;
+  color: #fff;
 }
 #theme-switcher {
   width: 50px;
   height: 20px;
 }
-.is-rounded{
+.is-rounded {
   max-width: 128%;
 }
-img{
+img {
   max-width: 50%;
   max-height: auto;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
-  
+
 .toggle {
-    width: 100px;
+  width: 100px;
 }
-  
-  /* Dark Mode */
-  .dark {
-    background-color:#243447;
-    color: #bebebe
-   
-  }
-  .dark li a {
-    color: #bebebe;
-  }
-  
-  .dark li a:hover {
-    background-color: #111;
-  }
-  
-  /* Light Mode */
-  /* .light {
+
+/* Dark Mode */
+.dark {
+  background-color: #243447;
+  color: #bebebe;
+}
+.dark li a {
+  color: #bebebe;
+}
+
+.dark li a:hover {
+  background-color: #111;
+}
+
+/* Light Mode */
+/* .light {
     background-color: #f0ead6;
     color: black;
     height: 100vh;
@@ -78,63 +77,83 @@ p {
     background-color: rgb(29, 128, 210);
   }
    */
-  /* Styling the Switch button */
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #111;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: rgb(29, 128, 210);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(29, 128, 210);
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded shape*/
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+/* Styling the Switch button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
-  .col {
-    margin: 10px;
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(29, 128, 210);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(29, 128, 210);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded shape*/
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.col {
+  margin: 10px;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  .box {
+    background: #f7d3ce;
   }
-  
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  .box {
+    background-color: #e6f5b2;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .box {
+    background-color: #c2e0ff;
+  }
+}
