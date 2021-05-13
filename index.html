@@ -10,13 +10,31 @@
       <title>Kunal</title>
     </head>
 
+    <!-- LINK FOR BUTTONS -->
+    <header id = "header" style = "opacity: 1"; top =0px>
+        <div class ="row">
+            <div class = "col-12">
+                <a id="logo" class="logo"></a>
+                <img class = "is-rounded" src="./assets/images/kunal-pic.jpg" alt="Image of Kunal"/> 
+
+
+        <a class="button is-hovered is-primary" href="index.html">Home</a>
+        <a class="button is-hovered is-link" href="#skills">Skills</a>
+        <a class="button is-hovered is-link" href="#projects">Projects</span></a>
+        <a class="button is-hovered is-link" href="#about-me">About</a>
+        <a class="button is-hovered is-link" href="#contact-me">Contact</a>
+        <a class="button is-hovered is-link" href="#resume">Resume</a>
+            </div>
+        </div>
+    </header>
+
     <body>
         <div class="container">
         <div class="box">
 
           <!-- HEADINGS -->
         <h1 class="title is-1"> Full Stack Web Developer</h1>
-        <h2 class="title is-3">I am <strong>Kunal</strong>!</h2>
+        <h2 class="title is-3"><strong>Hi, I am Kunal and I am </strong>!</h2>
         <h3 class = "title is-5">Welcome to my webpage</h3>
             <figure class="image is-128x128">
                 <img class = "is-rounded" src="./assets/images/kunal-pic.jpg" alt="Image of Kunal"/> 
@@ -33,19 +51,24 @@
                       <i class="fab fa-github fa-sm"></i>
                   </span>
             </a>
-      </div>
+            </div>
+
+            <div class="social" style="display: block;">
+                <ul>
+                    <li>
+                      <a href="https://twitter.com/KP_83" target="_blank" title="follow Me"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/kunalkhetarpal" target="_blank" title="LinkedIn Profile"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)" id="reader_to_user_email_link" class="reader_to_user_email_link" title="Get in Touch"><i class="fa fa-comments"></i></a>
+                    </li>
+                </ul>
+              </div>
     </body>
   </html>
-					<!-- LINK FOR BUTTONS -->
-                    <div class ="box">
-							<a class="button is-hovered is-primary" href="index.html">Home</a>
-							<a class="button is-hovered is-link" href="#skills">Skills</a>
-                            <a class="button is-hovered is-link" href="#projects">Projects</span></a>
-							<a class="button is-hovered is-link" href="#about-me">About</a>
-							<a class="button is-hovered is-link" href="#contact-me">Contact</a>
-                            <a class="button is-hovered is-link" href="#resume">Resume</a>
-						</ul>
-		            </div>
+		
     
     <!-- SKILLS -->
     <div id="skills"></div><div>
@@ -69,28 +92,76 @@
                         <p>BACK END</p>
                     </div>
                     <div class="message-body">
-                        Node.js
+                        Node, SQL, API
                     </div>
                 </article>
 
+
+                <!-- ALTERNATE VIEW OF PROJECTS -->
+                <div>
+
+                    <section class="dark">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="content-detail" style="opacity: 1; top: 0px;">
+                                    <!-- Show 3 latest portfolio items -->
+                                    <div class="header-center"><h3>Latest projects</h3></div>
+                                    <ul id="thumbs" class="thumbs clearfix">                                                                               
+                                            <li style="opacity: 1;">
+                                                <a href="https://nameless-ridge-55768.herokuapp.com/">
+                                                    <img src="./assets/images/group_project.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" >
+                                                    <div class="description">
+                                                        <span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+                                                        <h4>Stashbusters Project</h4>
+                                                        <p>Group Project</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li style="opacity: 1;">
+                                                <a href="https://nameless-ridge-55768.herokuapp.com/">
+                                                    <img src="./assets/images/tech-blog.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy">
+                                                    <div class="description">
+                                                        <span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+                                                        <h4>Creating a tech blog</h4>
+                                                        <p>Tech-blog</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li style="opacity: 1;">
+                                                <a href="https://nameless-ridge-55768.herokuapp.com/">
+                                                    <img src="./assets/images/e-comm-pic.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" sizes="(max-width: 628px) 100vw, 628px">								            
+                                                    <div class="description">
+                                                        <span class="arrow-r" style="opacity: 0; right: 0px;"></span>
+                                                        <h4>E-commerce</h4>
+                                                        <p>Command Line Interface</p>
+                                                    </div>
+                                                </a>
+                                            </li>                   
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+        
+                </div>
         <!-- WORK -->
         <div class="box" id="projects"><div>
           <h2 class = "title is-5">PROJECTS</h2>
             
-          <h2 class = "title is-6">Tech-blog</h2>
+          <h3 class = "title is-6">Group Project</h3>
+          <section id= "groupProject" class= "float-right"><a href="https://nameless-ridge-55768.herokuapp.com/" target="_blank">
+          <img src="./assets/images/group_project.jpg" class="float-right" alt = "group-project"/></a>
+          <p>Access the page via Heroku. <a href="https://nameless-ridge-55768.herokuapp.com/">[Click Here]</a>
+              <p>GitHub link <a href="https://github.com/10-kp/stashbusters">[Click Here]</a></p>            
+          </section>
+
+          <h3 class = "title is-6">Tech-blog</h3>
             <section id= "techBlog" class= "float-right"><a href="https://nameless-ridge-55768.herokuapp.com/" target="_blank">
             <img src="./assets/images/tech-blog.png" class="float-right" alt = "tech-blog"/></a>
             <p>Access the page via Heroku. GitHub link <a href="https://github.com/10-kp/tech-blog">[Click Here]</a></p>            
             </section>
 
-            <h2 class = "title is-6">Group Project</h2>
-            <section id= "groupProject" class= "float-right"><a href="https://nameless-ridge-55768.herokuapp.com/" target="_blank">
-            <img src="./assets/images/group_project.jpg" class="float-right" alt = "group-project"/></a>
-            <p>Access the page via Heroku. <a href="https://nameless-ridge-55768.herokuapp.com/">[Click Here]</a>
-                <p>GitHub link <a href="https://github.com/10-kp/stashbusters">[Click Here]</a></p>            
-            </section>
-
-            <h2 class = "title is-6">E-commerce </h2>
+            <h3 class = "title is-6">E-commerce </h3>
             <section id= "eComm" class= "float-right"><a href="https://nameless-ridge-55768.herokuapp.com/" target="_blank">
             <img src="./assets/images/e-comm-pic.jpg" class="float-right" alt = "e-comm"/></a>
             <p>Access the page via Heroku. <a href="https://nameless-ridge-55768.herokuapp.com/" >[Click Here</a>
@@ -98,14 +169,14 @@
             <a href="https://www.youtube.com/watch?v=3R76qtXzRlI">Sample Video</a></p>
             </section>
             
-            <h2 class = "title is-6">Employee Tracker </h2>
+            <h3 class = "title is-6">Employee Tracker </h3>
             <section id= "employeeTrack" class= "float-right">
             <img src="./assets/images/employee-tracker.jpg" class="float-right" alt = "employee-tracker"/></a>
             <p>GitHub link <a href="https://github.com/10-kp/employee-tracker">[Click Here]</a></p>
             <a href="https://www.youtube.com/watch?v=s0MKBF1d-D0">Sample Video</a></p>
             </section>
             
-            <h2 class = "title is-6">Note Taker </h2>
+            <h3 class = "title is-6">Note Taker </h3>
             <section id= "noteTaker" class= "float-right">
             <img src="./assets/images/e-comm-pic.jpg" class="float-right" alt = "note-taker"/></a>
             <p>Access the page via Heroku. <a href="https://damp-journey-24593.herokuapp.com/">[Click Here></a>
@@ -114,22 +185,22 @@
             </section>
             
     
-            <h2 class = "title is-6">Weather Dashboard</h2>
+            <h3 class = "title is-6">Weather Dashboard</h3>
                 <section id= "weather" class= "mybio"><a href="https://10-kp.github.io/weather-dashboard/" target="_blank">
                 <img src="./assets/images/weather-dash-pic.png" class="float-right" alt = "Image of weather link"/></a>
             </section>
 
-            <h2 class = "title is-6">Password Generator</h2>
+            <h3 class = "title is-6">Password Generator</h3>
                 <section id= "password" class= "mybio"><a href=" https://10-kp.github.io/password-generator/" target="_blank">
                 <img src="./assets/images/password-gen.png" class="float-right" alt = "Image of a password-generator"/></a>
             </section>
 
-            <h2 class = "title is-6">myFirstRepo</h2>
+            <h3 class = "title is-6">myFirstRepo</h3>
                 <section id= "myFirstRepo" class= "float-right"><a href="https://github.com/10-kp/myFirstRepo" target="_blank">
                 <img src="./assets/images/repository-pic.jpg" class="float-right" alt = "Repository"/></a>
             </section>
 
-            <h2 class = "title is-6">Horiseon</h2>
+            <h3 class = "title is-6">Horiseon</h3>
                 <section id= "Horiseon" class= "Horiseon"><a href="https://10-kp.github.io/Horiseon_site_accessibility/" target="_blank">
                 <img src="./assets/images/horiseon-pic.png" class="float-right" alt = "Image of the site"/></a>
             </section>
@@ -171,6 +242,9 @@
                         <img src="assets/images/resume-pic.jpg" class="float-right" alt = "image of resume"/></a>
                     </section>
                 </div>
+
+                
+
                 <!-- DARK MODE! -->
                 <div class = "box">
                     <p>DARK MODE COMING SOON</p>
@@ -184,6 +258,17 @@
                     </div>
                 </div>
         </div> -->
+                </div>
+        <footer id = "footer" style = "opacity: 1"; top =0px>
+            <div class ="box">
+            <a class="button is-hovered is-primary" href="index.html">Home</a>
+            <a class="button is-hovered is-link" href="#skills">Skills</a>
+            <a class="button is-hovered is-link" href="#projects">Projects</span></a>
+            <a class="button is-hovered is-link" href="#about-me">About</a>
+            <a class="button is-hovered is-link" href="#contact-me">Contact</a>
+            <a class="button is-hovered is-link" href="#resume">Resume</a>
+            </div>
+        </footer>
                 
     <script src = "./assets/script.js"></script>
 </body>
