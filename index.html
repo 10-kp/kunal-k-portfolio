@@ -11,10 +11,10 @@
     </head>
 
     <!-- LINK FOR BUTTONS -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="image is-64x64" href="https://10-kp.github.io/kunal-k-portfolio/">
-            <img src="./assets/images/logo.png" width="112" height="28">
+            <img src="./assets/images/logo.png">
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -44,38 +44,18 @@
                 <a class="navbar-item">
                     <a class="button is-hovered" href="#resume">Resume</a>
                 </a>
-    
           </div>
         </div>
       </nav>
-
-
-
-    <header id = "header" style = "opacity: 1"; top =0px>
-        <div class ="row">
-            <span class="icon is-large" >
-                <a href="index.html"><i class="fas fa-home"></i></a>
-              </span>
-                    <a class="button is-hovered is-success is-light" href="#skills">Skills</a>
-                    <a class="button is-hovered is-success is-light" href="#projects">Projects</span></a>
-                    <a class="button is-hovered is-success is-light" href="#about-me">About Me</a>
-                    <a class="button is-hovered is-success is-light" href="#contact-me">Contact</a>
-                    <a class="button is-hovered is-success is-light" href="#resume">Resume</a>
-                </div>    
-            </div>
-        </div>
-    </header>
-
+      
+      <!-- HEADINGS -->
     <body>
-        <div class="container">
         <div class="box">
-
-          <!-- HEADINGS -->
-        <h1 class="title is-1">Designer / Coder</h1>
+        <h1 class="title is-gapless">Designer / Coder</h1>
         <h2 class="title is-3"><strong>Hi, I am Kunal and I am Full Stack Web Developer</strong>!</h2>
         <h3 class = "title is-5">Welcome to my webpage</h3>
-            <figure class="image is-128x128">
-                <img class = "is-rounded" src="./assets/images/kunal-pic.jpg" alt="Image of Kunal"/> 
+            <figure class="image is-140x140">
+                <img class = "is-rounded is-centered" src="./assets/images/kunal-pic.jpg" alt="Image of Kunal"/> 
             </figure>
             </div>
 
@@ -96,7 +76,7 @@
         
             <!-- FRONT END -->
             <div class="block">
-                <article class="message is-success">
+                <article class="message is-outlined">
                     <div class="message-header">
                         <p>FRONT END</p>
                     </div>
@@ -107,7 +87,7 @@
 
             <!-- BACK END -->
             <div class="block">
-                <article class="message is-success">
+                <article class="message is-outlined">
                     <div class="message-header">
                         <p>BACK END</p>
                     </div>
@@ -115,12 +95,21 @@
                         Node, SQL, API
                     </div>
                 </article>
-                <h4 class = "title is-5"></h4>
-                <a href="https://github.com/10-kp" class="button is-medium">
+                
+                <p class="buttons">
+                    <button class="button">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <a href="https://github.com/10-kp"> <span>GitHub</span></a>
+                    </button>
+
+                <!-- <h4 class = "navbar-item"></h4>
+                <a href="https://github.com/10-kp">
                     <span class="icon">
-                        <i class="fab fa-github fa-sm"></i>
+                        <i class="fab fa-github"></i>
                     </span>
-                </a>
+                </a> -->
 
 
                 <!-- ALTERNATE VIEW OF PROJECTS -->
@@ -308,32 +297,6 @@
                     </div>
                 </div>
         </div> -->
-                </div>
-
-                <footer id = "footer" style = "opacity: 1"; top =0px>
-                    <div class ="row">
-                        <span class="icon is-large" >
-                            <a href="index.html"><i class="fas fa-home"></i></a>
-                          </span>
-                                <a class="button is-hovered is-success is-light" href="#skills">Skills</a>
-                                <a class="button is-hovered is-success is-light" href="#projects">Projects</span></a>
-                                <a class="button is-hovered is-success is-light" href="#about-me">About</a>
-                                <a class="button is-hovered is-success is-light" href="#contact-me">Contact</a>
-                                <a class="button is-hovered is-success is-light" href="#resume">Resume</a>
-                            </div>    
-                        </div>
-                    </div>
-                </footer>
-        <!-- <footer id = "footer" style = "opacity: 1"; top =0px>
-            <div class ="box">
-            <a class="button is-hovered is-primary" href="index.html">Home</a>
-            <a class="button is-hovered is-link" href="#skills">Skills</a>
-            <a class="button is-hovered is-link" href="#projects">Projects</span></a>
-            <a class="button is-hovered is-link" href="#about-me">About</a>
-            <a class="button is-hovered is-link" href="#contact-me">Contact</a>
-            <a class="button is-hovered is-link" href="#resume">Resume</a>
-            </div>
-        </footer> -->
                 
     <script src = "./assets/script.js"></script>
 </body>
