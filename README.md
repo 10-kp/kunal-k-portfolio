@@ -6,21 +6,16 @@ Git Hub Link: https://github.com/10-kp/kunal-k-portfolio
 
 Snapshot: ![](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-snapshot.png)
 
+Installation - Created a new repository in GitHib called kunal-k-portfolio - Copied the SSH Key in "Code" - [For MAC] In terminal, go to Desktop (cd Desktop/) - Create a clone -> git clone + paste the SSH key
 
-Installation
-    - Created a new repository in GitHib called kunal-k-portfolio
-    - Copied the SSH Key in "Code"
-    - [For MAC] In terminal, go to Desktop (cd Desktop/)
-    - Create a clone -> git clone + paste the SSH key
-    
     [After updating the webpage]
     - In terminal -> git add. -> git commit -m "(update with commets)" -> git push
-    - Publishing the site online via GitHub -> Settings -> GitHub Pages -> Source -> Main. 
+    - Publishing the site online via GitHub -> Settings -> GitHub Pages -> Source -> Main.
 
     HTML
     - Created a large font for header
     - Segregated into 2 headers, nav, 4 sections, 5 headers 2.
-    - Downloaded 
+    - Downloaded
     - Headings - About me, Work -> split into 5 sub-sections namely myFirstRepo, Horiseon, My Bio.
     - Created a contact me with phone, email, github, LinkedIn and Twitter
     - Separate Resume pdf links.
@@ -36,3 +31,9 @@ Installation
 
     Javascript
     - Added a dark theme button
+
+    Updates
+    - Updated portfolio featuring at least 3 examples of student work from either deployed projects of homeworks
+    - Update GitHub profile with pinned repositories featuring at least 3 examples of student work from either deployed projects of homeworks
+    -Updated resume
+    - Updated LinkedIn profile
