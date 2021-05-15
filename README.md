@@ -4,7 +4,7 @@ Link to the page: https://10-kp.github.io/kunal-k-portfolio/
 
 Git Hub Link: https://github.com/10-kp/kunal-k-portfolio
 
-Snapshot: ![](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-snapshot.png)
+Snapshot: ![](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-pic.png)
 
 Installation - Created a new repository in GitHib called kunal-k-portfolio - Copied the SSH Key in "Code" - [For MAC] In terminal, go to Desktop (cd Desktop/) - Create a clone -> git clone + paste the SSH key
 
@@ -29,11 +29,8 @@ Installation - Created a new repository in GitHib called kunal-k-portfolio - Cop
     - Contact me has 5 different links with access to external sites.
     - Use @ media screen to adjust for different sizes.
 
-    Javascript
-    - Added a dark theme button
-
     Updates
-    - Updated portfolio featuring at least 3 examples of student work from either deployed projects of homeworks
-    - Update GitHub profile with pinned repositories featuring at least 3 examples of student work from either deployed projects of homeworks
-    -Updated resume
+    - Updated portfolio featuring 3 examples of deployed projects of homeworks
+    - Updated GitHub profile featuring3 examples of deployed projects of homeworks
+    - Updated resume
     - Updated LinkedIn profile
