@@ -4,7 +4,7 @@ Link to the page: https://10-kp.github.io/kunal-k-portfolio/
 
 Git Hub Link: https://github.com/10-kp/kunal-k-portfolio
 
-Snapshot: ![](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-pic.png)
+![image](https://github.com/10-kp/kunal-k-portfolio/blob/main/assets/images/home-page-pic.png?raw=true)
 
 Installation - Created a new repository in GitHib called kunal-k-portfolio - Copied the SSH Key in "Code" - [For MAC] In terminal, go to Desktop (cd Desktop/) - Create a clone -> git clone + paste the SSH key
 
@@ -26,7 +26,6 @@ Installation - Created a new repository in GitHib called kunal-k-portfolio - Cop
     - Formatted <h1>, <h2> with respective individual properties and styles
     - Links (<href>) have unique properties including Pseudo element :hover.
     - Paras (<p>) have padding and styles to fit content in page.
-    - Contact me has 5 different links with access to external sites.
     - Use @ media screen to adjust for different sizes.
 
     Updates
