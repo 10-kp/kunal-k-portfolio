@@ -1,4 +1,4 @@
-@import 'bulma-social/css/all.min.css';
+@import 'https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css';
 
 :root {
   --background-color: #fff;
