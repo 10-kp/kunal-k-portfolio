@@ -15,214 +15,217 @@
     
     </head>
 
-    <!-- LINK FOR BUTTONS -->
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="image is-64x64" href="https://10-kp.github.io/kunal-k-portfolio/">
-            <img src="./assets/images/logo.png">
-          </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-                <a class="navbar-item">
-                    <a class="button is-hovered is-success" href="index.html">Home</a>
-                </a>
-                <a class="navbar-item">
-                    <a class="button is-hovered" href="#skills">Skills</a>
-                </a>
-                <a class="navbar-item">
-                    <a class="button is-hovered" href="#projects">Projects</a>
-                </a>
-                <a class="navbar-item">
-                    <a class="button is-hovered" href="#about-me">About Me</a>
-                </a>
-                <!-- <a class="navbar-item">
-                    <a class="button is-hovered" href="#contact-me">Contact</a>
-                </a> -->
-                <a class="navbar-item">
-                    <a class="button is-hovered" href="#resume">Resume</a>
-                </a>
-          </div>
-        </div>
-      </nav>
-      
-      <!-- HEADINGS -->
     <body>
-        <div class="box">
-        <h1 class="title is-gapless">Designer / Coder</h1>
-        <h2 class="title is-3"><strong>Hi, I am Kunal and I am Full Stack Web Developer</strong>!</h2>
-        <h3 class = "title is-5">Welcome to my webpage</h3>
-            <figure class="image is-129x129">
-                <img class = "is-rounded is-centered" src="./assets/images/kunal-pic.jpg" alt="Image of Kunal"/> 
-            </figure>
+        <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo right"><img  class="responsive-img"id="logo" src="./assets/images/logo.png" alt="logo"></a>
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#hero">Top</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="#cards">Projects</a></li>
+                <li><a href="#form">Contact</a></li>
+              </ul>
             </div>
-
-            <div class="social" style="display: block;">
+          </nav>
+        </div>
+        <div class="container">
+            <div class="row" id="hero">
+                <div  id="class="col s12>
+                    <img src="./assets/images/code-4918185_1920.jpg" alt="heroimg" style="width: 97vw; height:100vh;">
+                    <h3 id="name">Hi! I'm Kunal</h3>
+                    <h3 id="title">I am a Full-Stack Developer</h3>
+                </div>
+            </div>
+            <div class="row"  id="aboutSec" style="width: 100vw; height:100vh;">
+               <div class="divider"></div> 
+               <div>
+               <h2 class="center-align"> ABOUT</h2>
+               <div class="divider"></div> 
+            </div>
+            <div class="col s12 center-align about " style="width:80vw; margin-left:10vw;"id="about"  >
+                <div class="card-panel grey lighten-5 z-depth-1">
+                  <div class="row valign-wrapper">
+                    <div class="col s4" >
+                      <img src="./assets/images/kunal-pic.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                      <span class="black-text">
+                        <p>I graduated from Hult University in 2012 with a MBA in Finance and I currently undertaking a part-time Full Stack Web Development class at the University of Oregon</p>
+                        <p>A corporate banker by profession, I am keen to leverge the coding skills onto the banking scene and beyond.</p> 
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section">
+              <div class="divider"></div>
+              <div>
+                <h3>Skills</h3>
                 <ul>
-                    <li><a href="https://twitter.com/KP_83" target="_blank" title="follow me"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/kunalkhetarpal" target="_blank" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="mailto:kp.10@me.com" target="_blank" title="comments"><i class="fas fa-envelope"></i></a></li>
+                    Front End: HTML, CSS, JavaScript, JQuery, Bootstrap
+                </ul>
+                <ul>
+                    Back End: Express, Node, SQL, APIs, MongoDB
                 </ul>
               </div>
-    </body>
-  </html>
-		
-    
-    <!-- SKILLS -->
-
-    <div id="skills"></div><div>
-        <h2 class = "title is-5 message is-outlined">Skills</h2>
-        
-        <!-- FRONT END -->
-        <div class="block">
-                    <p>FRONT END</p>
-                </div>
-                <div class="message-body">
-                    HTML, CSS, JavaScript, JQuery, Bootstrap
-                </div>
-            </article>
-
-        <!-- BACK END -->
-        <div class="block">
-                    <p>BACK END</p>
-                </div>
-                <div class="message-body">
-                    Express, Node, SQL, APIs, MongoDB
-                </div>
-            </article>
-
-        </div>
-    <!-- PROJECTS -->
-    <article class="message is-outlined"></article>
-    <h2 class = "title is-4 message is-outlined">Projects</h2>
-    
-    <div class="tile is-ancestor">
-        <div class="tile is-vertical is-9">
-            <div class="tile">
-            <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-primary">
-                    <p class="title">Stashbusters</p>
-                    <p class="subtitle">Group Project</p>
-                <figure class="image is- 8by4">
-                    <img src="./assets/images/group_project.jpg">
-                </figure>
-                </article>
-                <div>
-                    <p class="buttons">
-                        <button class="button is-link">Demo
-                            <a target = "_blank" href="https://nameless-mesa-29731.herokuapp.com/"></a>
-                        </button>
+              <div class="row">
                 
-                        <button class="button">
-                            <span class="icon">
-                              <i class="fab fa-github"></i>
-                            </span>
-                            <span a target = "_blank" href="https://github.com/10-kp/stashbusters">GitHub</span>
-                          </button>
-                </div>
-            
-
-            <div class="tile is-parent">
-                <article class="tile is-child notification is-info">
-                <p class="title">Tech Blog</p>
-                <p class="subtitle">MVC</p>
-                <figure class="image is-8by4">
-                    <img src="./assets/images/tech-blog.png">
-                </figure>
-                </article>
-            </div>
-
-            <div>
-                <p class="buttons">
-                    <button class="button is-link">Demo
-                        <a target = "_blank" href="https://nameless-ridge-55768.herokuapp.com/"></a>
-                    </button>
-            
-                    <button class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <span a target = "_blank" href="https://github.com/10-kp/tech-blog">GitHub</span>
-                      </button>
-            </div>
-
-            <div class="tile is-parent">
-                <article class="tile is-child notification is-info is-light">
-                    <p class="title">E-commerce</p>
-                    <p class="subtitle">Command Line Interface</p>
-                    <figure class="image is-8by4">
-                    <img src="./assets/images/e-comm-pic.jpg">
-                    </figure>
-                </article>
-            </div>
-
-            <div>
-                <p class="buttons">
-                    <button class="button is-link">Demo
-                        <a target = "_blank" href="https://www.youtube.com/watch?v=3R76qtXzRlI"></a>
-                    </button>
-            
-                    <button class="button">
-                        <span class="icon">
-                          <i class="fab fa-github"></i>
-                        </span>
-                        <span a target = "_blank" href="https://github.com/10-kp/eCommerceBackEnd">GitHub</span>
-                      </button>
-            </div>
-
-        
-        <article class="tile is-child notification">
-            <p class="title is-4">Other Projects</p>
-
-            <a href="https://damp-journey-24593.herokuapp.com/">Note Taker</a>
-
-            <a href="https://10-kp.github.io/weather-dashboard/">Weather Dashboard</a>
-
-            <a href=" https://10-kp.github.io/password-generator/">Password Generator</a>
-
-            <a href="https://10-kp.github.io/Horiseon_site_accessibility/">Horiseon</a>
-
-            <a href="https://github.com/10-kp/myFirstRepo">My First Repo</a>
-
-            <p class="title is-6">Please view these projects in GitHub</p>
-            <div>
-                <p class="buttons">
-                    <button class="button">
-                    <span class="icon">
-                    <i class="fab fa-github"></i>
-                    </span>
-                    <a href="https://github.com/10-kp"> <span>GitHub</span></a>
-                </button>
-            </div>
-
-        </article>
-    </div>
-</div>
-    <!-- ABOUT ME-->
-
-    <div id= "about-me" class="box ">
-        <h2 class = "title is-5 message is-outlined">About Me</h2>
-        <p>15 years, Corporate Banker, MBA, Reading, Running</p>    
-    </div>
+              </div>
     
-            <div class = "box">
-                <h2 class = "title is-5 message is-outlined">Resume</h2>
-                <section id = "resume">            
-                    <section id= "mybio"><a href="https://docs.google.com/document/d/1Ru-sJ7flEH7-rsOqHtAzzqLpuIsMyCES7iQPQAEbADo/edit?usp=sharing" target="_blank">
-                        <figure class="image is-128x128">
-                    <img src="assets/images/resume-pic.jpg" class="float-right" alt = "image of resume"/></a>
-                </figure>
-                </section>
             </div>
-
-    <script src = "./assets/script.js"></script>
-</body>
-</html>    
-
+            <div class="section" id="cards" style="width:100vw; height:100vh;">
+              <div class="divider"></div>
+              <div>
+                <h3 class="center-align">Projects</h3>
+              </div>
+              <div class="divider"></div>
+              <div class="row projectCards" >
+                <!---Card 1-->
+                <div class="col  m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/vectorstock_33744978.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Password Generator<i class="material-icons right">more_vert</i></span>
+                      <p><a href=" https://10-kp.github.io/password-generator/">Link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>
+                </div>
+                  <!---Card 2-->
+                <div class="col m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/vectorstock_12245333.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                 <!---Card 3--> 
+                <div class="col  m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/vectorstock_33741762.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+        
+                  </div>
+                </div>
+                <!---Card 4--> 
+                <div class="col  m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/vectorstock_33744771.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+              </div>
+               <!---Card 5--> 
+                <div class="col  m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/vectorstock_33677371.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+              </div>
+               <!---Card 6--> 
+                <div class="col  m3">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="./assets/images/illust58-5544-01.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                      <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+    
+              </div>
+                </div>
+              </div>
+              <div class="section contact" id="form" style="width:100vw; height:100vh;">
+                <div class="divider"></div> 
+               <div>
+               <h2 class="center-align"> CONTACT</h2>
+               <div class="divider"></div> 
+              
+              <div class="row mainRow">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input placeholder="John" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Textarea</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </form>
+              </div>
+            </div>    
+            </div>
+                    
+        </div>
+        
+    </body>
+    <!-- Compiled and minified JavaScript from materialize-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </html>
